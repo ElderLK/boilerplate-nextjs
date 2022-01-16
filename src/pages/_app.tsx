@@ -1,7 +1,23 @@
+import Head from 'next/head';
+import GlobalStyles from 'styles/global';
 import type { AppProps /*, AppContext */ } from 'next/app';
 
 function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />;
+  return (
+    <>
+      <Head>
+        <title>NextJS - Boilerplate</title>
+        <link rel="shortcut icon" href="/images/logo/logo512.png" />
+        <link rel="apple-touch-icon" href="/images/logo/logo512.png" />
+        <meta
+          name="description"
+          content="A simple project starter to work with NextJS, TypeScript, and Styled Components"
+        />
+      </Head>
+      <GlobalStyles />
+      <Component {...pageProps} />
+    </>
+  );
 }
 
 // Only uncomment this method if you have blocking data requirements for
