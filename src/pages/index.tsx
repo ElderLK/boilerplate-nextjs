@@ -1,18 +1,16 @@
 import { Main } from 'components';
 import { GetStaticProps } from 'next';
-import Head from 'next/head';
-import Image from 'next/image';
-import styles from '/styles/Home.module.css';
+// import Head from 'next/head';
+// import Image from 'next/image';
+// import styles from '/styles/Home.module.css';
 
 type Props = {
   title: string;
 };
 
-const bla = 'var';
-
 export default function Home({ title = 'Create Next App' }: Props) {
   return (
-    <Main />
+    <Main title={title} />
     // <div className={styles.container}>
     //   <Head>
     //     <title>{title}</title>
