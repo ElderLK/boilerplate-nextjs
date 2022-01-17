@@ -33,4 +33,10 @@ yarn-error.log*
 # vercel
 .vercel
 
+# cache
 .eslintcache
+
+# next-pwa
+**/public/workbox-*.js
+**/public/sw.js
+**/public/worker-*.js
