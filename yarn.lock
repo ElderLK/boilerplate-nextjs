@@ -3504,10 +3504,10 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react@*", "@types/react@^17.0.38":
-  version "17.0.38"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.38.tgz#f24249fefd89357d5fa71f739a686b8d7c7202bd"
-  integrity sha512-SI92X1IA+FMnP3qM5m4QReluXzhcmovhZnLNm3pyeQlooi02qI7sLiepEYqT678uNiyc25XfCqxREFpy3W7YhQ==
+"@types/react@*", "@types/react@^17.0.39":
+  version "17.0.39"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.39.tgz#d0f4cde092502a6db00a1cded6e6bf2abb7633ce"
+  integrity sha512-UVavlfAxDd/AgAacMa60Azl7ygyQNRwC/DsHZmKgNvPmRR5p70AJ5Q9EAmL2NWOJmeV+vVUI4IAP7GZrN8h8Ug==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
@@ -6398,10 +6398,10 @@ eslint-plugin-react@^7.27.0, eslint-plugin-react@^7.28.0:
     semver "^6.3.0"
     string.prototype.matchall "^4.0.6"
 
-eslint-plugin-storybook@^0.5.6:
-  version "0.5.6"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-storybook/-/eslint-plugin-storybook-0.5.6.tgz#10bce5933ad9ceec46cdf5ed5a81b50b33f73bf7"
-  integrity sha512-hxeydYXi0DZC80kV9wPz9pA9oG9GVdfNg9iXR/KhqnMdqZWCGQKsex05k4VlX52no7mm/sICjW/iKYtRqVkaaw==
+eslint-plugin-storybook@^0.5.7:
+  version "0.5.7"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-storybook/-/eslint-plugin-storybook-0.5.7.tgz#7d871efe232401de7c21680653608b1c88e83ecb"
+  integrity sha512-rko/QUHa3/hrC3W5RmPrukKawCyGeVqSuwzyLZO6aV/neyOPrgkL/LED8u6NQJSaT1qZFT+7iLQ1eE8Ce7G+aA==
   dependencies:
     "@storybook/csf" "^0.0.1"
     "@typescript-eslint/experimental-utils" "^5.3.0"
